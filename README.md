@@ -1,70 +1,47 @@
 
+[ FitTrack ]
+
+FitTrack is a web-based fitness management application that helps users track workouts, record body measurements, manage fitness goals, monitor nutrition and water intake, and analyze their progress over time.
+
+
 
 Project structure
 
-4 MAIN MODULES
+3 MAIN MODULES
 
-1. Workout Management
-2. Body Measurements
-3. Fitness Goals
-4. Water Intake Tracker
-
-
-
-
+1. daily progress: workouts he did, water he intake, sleep
+2. Body Measurements: height, weight, hips ,goals 
+3. user 
 
 
 FitTrack – User Stories
-1. Workout Management
-As a user, I want to add a workout so that I can record my physical activities.	
-As a user, I want to view my workout history so that I can monitor my activities.
-As a user, I want to edit a workout so that I can correct its information.	
-As a user, I want to delete a workout so that I can remove unwanted records.
+1. Body Measurements: height, weight, hips ,goals 
 
-2. Body Measurements
-
-As a user, I want to record my body measurements so that I can track physical changes.
-
-As a user, I want to view my measurement history so that I can compare previous records.
-
-As a user, I want to edit my measurements so that my records remain accurate.	
-
-As a user, I want to delete a measurement so that I can remove incorrect records.
-
-
-3. Fitness Goals
-
-As a user, I want to create fitness goals so that I can work toward specific targets.	
-As a user, I want to view my goals so that I can monitor my targets.	
-
-As a user, I want to update goal progress so that I can track my achievements.
-
-As a user, I want to edit my goals so that I can adjust my targets.
-
-As a user, I want to delete goals so that I can remove goals I no longer need.	
-
-As a user, I want to see completed and ongoing goals so that I can monitor my progress.
-
-
-4. Water Intake Tracker
-
-As a user, I want to record my water intake so that I can monitor daily hydration.	
-
-
-As a user, I want to view my daily water consumption so that I know how much water I drink.	
-
-
-As a user, I want to edit water intake records so that I can correct incorrect amounts.	
-
-
-As a user, I want to delete water intake records so that I can remove incorrect entries.	
-
-
-As a user, I want to set a daily water target so that I can track my hydration goal.
+As a user, I want to record my body weight so that I can monitor my weight changes.
+As a user, I want to record my height so that I can maintain my body information.
+As a user, I want to record my waist and hip measurements so that I can track body changes.
+As a user, I want to add notes to my measurement records so that I can save additional information
+As a user, I want to view my measurement history so that I can compare previous measurements.
+As a user, I want to edit my body measurements so that I can correct or update my records.
+As a user, I want to delete measurement records so that I can remove incorrect entries.
+As a user, I want to record my fitness goals so that I can keep track of my targets.
 
 
 
 
-#EDR
-![alt text](<User Relationship ER Diagram.png>)
+
+2. daily progress: workouts he did, water he intake, sleep
+
+As a user, I want to record my workout type so that I can track my physical activities.
+As a user, I want to record my workout duration so that I can monitor my training time.
+As a user, I want to record calories burned so that I can monitor my workout performance.
+As a user, I want to record my daily water intake so that I can track my hydration.
+As a user, I want to record my sleep hours so that I can monitor my sleeping habits.
+As a user, I want to view my daily progress records so that I can review my activities.
+As a user, I want to edit my daily progress records so that I can correct incorrect information.
+As a user, I want to delete daily progress records so that I can remove unwanted entries.
+
+
+#ERD
+![alt text](image.png)
 
